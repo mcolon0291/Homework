@@ -21,6 +21,17 @@ A simple Rock Paper Scissors game created as part of Perscholas curriculum.
 
 -Executing code on certain events like clicking buttons.
 
+<h1> Instructions </h1>
+
+-Alert will pop and ask player how many rounds would player like to play.
+
+-Player will click on any image (rock, paper, scissors)
+
+-Computer will generate a random image.
+
+-Once the round is up game will be over.
+
+
 <h1>Future Improvements </h1>
 
 
