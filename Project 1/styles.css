@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #1f3757;
+    /* text-align: center;
+    background; */
+
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 25px;
+     margin-bottom: 30px; 
+}
+
+
+#opponent-choice {
+    width: 280px;
+    height: 280px;
+    /* background-color: cyan; */
+    margin-top: 10px;
+
+}
+
+#your-choice {
+    width: 280px;
+    height: 280px;
+    /* background-color: yellow; */
+    margin-top: 10px; 
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    /* background-color: green; */
+    margin: 0 auto;
+    margin-top: 10px;
+    color: white
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
+
+#opponent-score {
+   position: relative;
+   left: -145px;
+   font-size: 20px;
+   font-family: 'Barlow Condensed', sans-serif;
+}
+
+#your-score {
+    position: relative;
+    right: -225px; 
+    justify-content: right;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.reset {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    border-color: white;
+    margin: 5px;
+   
+}
